@@ -8,8 +8,8 @@ from torchvision import transforms
 from torchvision.datasets import MNIST
 from tqdm import tqdm
 
-SAVE_PATH = "../infer_result/"
-model_path = "../runs/L1Loss_UNet/"
+SAVE_PATH = "infer_result/"
+model_path = "runs/L1Loss_UNet/"
 
 
 def infer_step(model, device, test_loader, criterion, save=False):

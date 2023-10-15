@@ -4,8 +4,9 @@ from pathlib import Path
 import numpy as np
 import torch
 import torch.nn as nn
-from get_device import get_device
 from tqdm import tqdm
+
+from .get_device import get_device
 
 
 class Trainer(object):
